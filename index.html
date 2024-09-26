@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .el1{
+        display: flex;
+        justify-content: space-between;
+     }
+    .parent{
+         display: flex;
+         justify-content: end;
+         }
+    main{
+        background-image: url(hamburger.jpeg);
+        height: 100vh;
+        background-size: cover;
+    }
+    h1{
+        text-align: center;
+        font-weight: 200px;
+        font-size: large; 
+        font-style: oblique;
+    }
+    .container{
+        display: flex;
+    }
+    .parent{
+        display: flex;
+    }
+    .content{
+        align-content: center;
+        font-size: large;
+        font-style:normal;
+        flex-basis: 50%;
+        margin: 50px;
+    }
+    .el2{
+        display: flex;
+        align-items: flex-end;
+    }
+    img{
+        margin-top: 20px;
+        flex-basis: 50%;
+    }
+    h1{
+        text-align: left;
+    }
+    .box2{
+        margin:20px 200px 20px 200px;
+        font-family: "playfair Display";
+  }
+  .box2 h1{
+    margin-bottom:60px ;
+    font-size: 40px;
+  }
+  .box2 h3{
+    margin-bottom: 20px;
+    color: aqua;
+    font-size: 22px;
+  }
+  .box2 p{
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+  form{
+    margin-top: 60px;
+  }
+  input{
+    width: 900px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 200px;
+  }
+  header{
+    padding: 20px;
+    background-color: white;
+    
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul{
+    list-style: none;
+
+  }
+  nav ul li{
+    display: inline;
+    margin-left: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+
+  header h1{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+</style>
+<body>
+    <header>
+ <div class="el1">
+        <h1>Gourmet au catering</h1> </div>
+    <nav><ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#menu">menu</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul></nav>
+</header>
+
+ </div>
+    <main class="el2">
+        <h1>Le Catering</h1>
+    </main>
+        <div class="container" id="about">
+        <img src="tablesetting2.jpg">
+        <div class="content">
+        <h1>ABOUT CATERING</h1>
+        <p>The Catering was founded in blabla by Mr. Smith 
+            in lorem ipsum dolor sit amet,
+             consectetur adipiscing elit consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients</p>
+     </div>
+    </div>
+        <div class="parent" id="menu">
+        <div class="content">
+        <h1> Our Menu </h1>
+        <p>Bread Basket<br><br>
+         Assortment of fresh baked fruit breads and muffins 5.50<br><br>
+          Honey Almond Granola with Fruits<br><br>
+            Natural cereal of honey toasted oats, raisins, almonds and dates 7.00<br><br>
+            Belgian Waffle<br><br>
+            Vanilla flavored batter with malted flour 7.50<br><br>
+           Scrambled eggs<br><br>
+            Scrambled eggs, roasted red pepper and garlic, with green onions 7.50<br><br>
+            Blueberry Pancakes<br><br>
+            With syrup, butter and lots of berries 8.50</p>
+        </div>
+            <img src="tablesetting.jpg">
+    </div>
+    <div class="box2" id="contact">
+       
+    <h1>Contacts</h1>
+    
+    <p>We offer full-service catering for any event, large or small. 
+        We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+         Do not hesitate to contact us.</p>
+
+        <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+       
+       <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p></div>
+       <div>
+        <form>
+      
+        <input type="text" name="name" placeholder="name" required>
+        <br><br>
+        <input type="number" name="name" placeholder="how many members" required>
+        <br>
+        <br>
+        <input type="date" name="date" placeholder="23-05-2024" required>
+        <br>
+        <br>
+        <input type="text" name="name" placeholder="message/special requirments" reqired>
+        <br>
+        <br>
+        <button>send message</button>
+        </form>
+   
+</div>
+</body>
+</html>
